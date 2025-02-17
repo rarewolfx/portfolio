@@ -1,8 +1,1192 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Luis Fernando Torres - Data | AI | Python | SQL | AML/FT</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/pfp.png" alt="Luis Fernando Torres" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Luis Fernando Torres">Luis Fernando Torres</h1>
+
+          <p class="title">Data | AI | Python | SQL | AML/FT</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:luuisotorres@icloud.com" class="contact-link">luuisotorres@icloud.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="https://api.whatsapp.com/send?phone=5512974111105" class="contact-link">+55 12 97411-1105</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">August 05, 1997</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>São Paulo, Brazil</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/luuisotorres/" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://medium.com/@luuisotorres" class="social-link">
+              <i class="fab fa-medium"></i>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.kaggle.com/lusfernandotorres" class="social-link">
+              <i class="fab fa-kaggle"></i>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://huggingface.co/luisotorres" class="social-link">
+              <img src="assets/images/hf-logo.svg" alt="Hugging Face">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/luuisotorres" class="social-link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+      </ul>
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            AI and Data Science professional with expertise in fintech, machine learning, AML/FT, and workflow optimization.
+          </p>
+
+          <p>
+            Skilled in leveraging Python and SQL to develop AI-driven tools and AML/FT solutions. 
+          </p>
+
+          <p>
+          Proven success collaborating with global teams to align with U.S. regulations and create scalable, data-centric applications 
+          that drive impactful results.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="da icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Extract insights through meticulous exploratory analysis and the employment of statistical techniques.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="ml icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Build predictive models to contribute to data-driven decisions and solve complex problems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="web app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Apps</h4>
+
+                <p class="service-item-text">
+                  Design web applications to host and deploy ML models for practical utility of data-driven solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="trophy icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Kaggle Competitor</h4>
+
+                <p class="service-item-text">
+                  Engage in high-level competitions to sharpen skills and explore innovative data solutions.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+            
+            </div>
+
+            <div class="modal-content">
+
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+
+          
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AML/FT Intelligence Analyst (Focus on Data)</h4>
+              <h4 class="h4 timeline-item-title smaller-text">CloudWalk, Inc</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                • Developed AML/FT and KYC policies and procedures for a financial product aimed at the U.S. market, ensuring alignment with regulatory requirements.
+                <br><br>  
+                • Collaborated closely with major U.S. banks—Patriot Bank, Cross River Bank, Lead Bank, and Synovus Bank—during due diligence processes, refining policies and procedures to ensure alignment with U.S. laws and regulations.
+                <br><br>  
+                • Collaborated with Legal, Engineering, Product, Cybersecurity, Fraud Monitoring, Marketing, Issuing, and Customer Support teams to ensure regulatory compliance across all business units supporting the U.S. product. Guided each group in developing the necessary structures and processes for periodic reporting to sponsor banks.
+                <br><br>
+                • Partnered with Persona to design and implement the onboarding and KYC process for the U.S. product, defining verification checks, watchlist screening, and PEP checks. 
+                Used SQL to create threshold-based alert systems that flagged suspicious transactions potentially tied to money laundering or terrorism financing, significantly improving monitoring effectiveness.
+                <br><br>
+                • Designed and implemented an AI Agent using Python, Google BigQuery, and OpenAI’s GPT model to autonomously analyze financial data, identify patterns indicative of suspicious activity, and write analysis reports.
+                <br><br>
+                • Developed a web application using Python and Streamlit for AML/FT operations, allowing analysts to run multiple BigQuery queries simultaneously and instantly visualize financial and compliance data. This accelerated the workflow and reduced the need for manual processes.
+                <br><br>
+                • Maintained and managed a vector database using Python, Google Cloud Storage, and LangChain to power an AI Agent that provided real-time assistance via Slack for Compliance teams, covering both Brazilian and U.S. laws.
+            </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Content Contributor</h4>
+              <h4 class="h4 timeline-item-title smaller-text">Sabio Trade</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                • Collaborated with SabioTrade’s international team to produce articles for their blogs, ensuring informative and relevant content for the company’s audience.
+                <br><br>
+                • Authored several blog posts on a wide range of finance and trading topics—including Forex, technical analysis, quantitative finance, investment strategies, and banking—providing readers with clear and detailed insights into financial markets.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Content Creator - Data Science, Machine Learning, and Quantitative Finance</h4>
+              <h4 class="h4 timeline-item-title smaller-text">Medium</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                • Authored articles about Data Science, Artificial Intelligence, and Quantitative Finance for various Medium publications, including InsiderFinance Wire, AI in Plain English, and LXAI, attracting over two thousand subscribers to my Medium profile.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kaggle Master</h4>
+              <h4 class="h4 timeline-item-title smaller-text">Kaggle</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                • Contributed to the Kaggle community by producing several highly praised notebooks such as Data Science for Financial Markets, Text Summarization with Large Language Models, and Building Convolutional Neural Networks from Scratch.
+                <br><br>
+                • Earned the titles of Notebooks Master and Datasets Expert for my contributions across competitions, forums, and dataset curation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Finance Analyst</h4>
+              <h4 class="h4 timeline-item-title smaller-text">LR Torres</h4>
+
+              <span>2018 — 2024</span>
+
+              <p class="timeline-text">
+                • Enhance financial management and administrative efficiency through data-driven methodologies.
+                <br><br>
+                • Designed and implemented data visualization tools to elevate analytical capabilities and strategic planning.
+                <br><br>
+                • Optimized financial planning processes, developing a more strategic decision-making culture.
+                <br><br>
+                • Managed financial resources, led strategic planning initiatives, and oversaw digital marketing efforts to drive business growth.
+                <br><br>
+                • Developed and maintained strong relationships with customers, ensuring high levels of satisfaction and retention.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science & Artificial Intelligence</h4>
+              <h4 class="h4 timeline-item-title smaller-text">PUCRS</h4>
+
+              <span>2022 — 2022</span>
+
+              <p class="timeline-text">
+                Postgraduate Specialization.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Financial Management</h4>
+              <h4 class="h4 timeline-item-title smaller-text">FGV</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                College Degree.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Microsoft Certified: Azure AI Engineer Associate</h4>
+              <h4 class="h4 timeline-item-title smaller-text">Microsoft Azure</h4>
+
+              <span>2024</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Engineering for Production (MLOps) Specialization</h4>
+              <h4 class="h4 timeline-item-title smaller-text">DeepLearning.AI</h4>
+
+              <span>2024</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CPA-20</h4>
+              <h4 class="h4 timeline-item-title smaller-text">ANBIMA (Brazilian Financial and Capital Markets Association)</h4>
+
+              <span>2021</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Courses</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Audio Course</h4>
+              <h4 class="h4 timeline-item-title smaller-text">Huggingface.co</h4>
+
+              <span>2023</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NLP Course</h4>
+              <h4 class="h4 timeline-item-title smaller-text">Huggingface.co</h4>
+
+              <span>2023</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Generative AI with Large Language Models</h4>
+              <h4 class="h4 timeline-item-title smaller-text">Deeplearning.ai</h4>
+
+              <span>2023</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The Econometrics of Time Series Data</h4>
+              <h4 class="h4 timeline-item-title smaller-text">Queen Mary University of London</h4>
+
+              <span>2023</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Vision</h4>
+              <h4 class="h4 timeline-item-title smaller-text">Kaggle</h4>
+
+              <span>2022</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+        
+          <ul class="skills-list content-card">
+            
+            <p class="timeline-text">
+              <b>Data Science:</b> Data Cleaning, Preprocessing, Visualization, Exploratory Data Analysis (EDA), Statistics, Regression Analysis, ETL
+            </p>
+            <br>
+            <p class="timeline-text">
+              <b>Machine Learning & AI:</b> Classification & Regression Models, Clustering, Deep Learning (Computer Vision & Natural Language Processing), Econometric Models, Model Evaluation, Feature Engineering & Selection, Hyperparameter Tuning
+            </p>
+            <br>
+            <p class="timeline-text">
+              <b>Cloud Platforms:</b> AWS SageMaker, Azure, BigQuery, Google Cloud Platform
+            </p>
+            <br>
+            <p class="timeline-text">
+              <b>Programming & Databases:</b> Python, SQL, MySQL, PySpark, Docker, Git
+            </p> 
+            <br>
+            <p class="timeline-text">
+              <b>Frameworks & Libraries:</b> TensorFlow, Keras, Scikit-Learn, Transformers, LangChain, PyCaret, Optuna
+            </p> 
+            <br>
+            <p class="timeline-text">
+              <b>Data Visualization:</b> Pandas, NumPy, Plotly, Streamlit, Statsmodels
+            </p> 
+            <br>
+            <p class="timeline-text">
+              <b>Specialized Tools:</b> Gradio, Diffuser, CrewAI, YFinance
+            </p> 
+          </ul>
+        
+        </section>
+        
+        </article>
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Notebooks</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Datasets</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Apps</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Notebooks</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Datasets</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Apps</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="notebooks">
+              <a href="https://www.kaggle.com/code/lusfernandotorres/transformer-from-scratch-with-pytorch">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-18.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Transformer From Scratch With PyTorch</h3>
+
+                <p class="project-category">Notebooks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="notebooks">
+              <a href="https://www.kaggle.com/code/lusfernandotorres/data-science-for-financial-markets">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Science for Financial Markets</h3>
+
+                <p class="project-category">Notebooks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web apps">
+              <a href="https://huggingface.co/spaces/luisotorres/plant-disease-detection">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-15.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Plant Disease Detection</h3>
+
+                <p class="project-category">Web Apps</p>
+
+              </a>
+            </li>
+
+              <li class="project-item  active" data-filter-item data-category="notebooks">
+                <a href="https://www.kaggle.com/code/lusfernandotorres/convolutional-neural-network-from-scratch/notebook">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-13.png" alt="CNN" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Convolutional Neural Network from Scratch</h3>
+  
+                  <p class="project-category">Notebooks</p>
+  
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="notebooks">
+                <a href="https://www.kaggle.com/code/lusfernandotorres/audio-data-music-genre-classification">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-17.png" alt="audio" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Audio Data: Music Genre Classification</h3>
+  
+                  <p class="project-category">Notebooks</p>
+  
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="notebooks">
+                <a href="https://www.kaggle.com/code/lusfernandotorres/text-summarization-with-large-language-models">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-14.png" alt="orizon" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Text Summarization with Large Language Models</h3>
+  
+                  <p class="project-category">Notebooks</p>
+  
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web apps">
+                <a href="https://huggingface.co/spaces/luisotorres/bart-text-summarization">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-16.png" alt="orizon" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Text Summarization with BART</h3>
+  
+                  <p class="project-category">Web Apps</p>
+  
+                </a>
+              </li>
+
+            <li class="project-item  active" data-filter-item data-category="notebooks">
+              <a href="https://www.kaggle.com/code/lusfernandotorres/kaggle-llm-science-exam-eda-deberta">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kaggle - LLM Science Exam Competition</h3>
+
+                <p class="project-category">Notebooks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="notebooks">
+              <a href="https://www.kaggle.com/code/lusfernandotorres/mastering-linear-regression-with-statsmodels">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mastering Linear Regression with Statsmodels</h3>
+
+                <p class="project-category">Notebooks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="datasets">
+              <a href="https://www.kaggle.com/datasets/lusfernandotorres/ibovespa-futures">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ibovespa Futures</h3>
+
+                <p class="project-category">Datasets</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web apps">
+              <a href="https://huggingface.co/spaces/luisotorres/wine-quality-predictions">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wine Quality Predictor</h3>
+
+                <p class="project-category">Web Apps</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="datasets">
+              <a href="https://www.kaggle.com/datasets/lusfernandotorres/wikipedia-crypto-articles">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-19.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wikipedia Crypto Articles</h3>
+
+                <p class="project-category">Datasets</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="notebooks">
+              <a href="https://www.kaggle.com/code/lusfernandotorres/weight-of-evidence-and-information-value">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weight of Evidence and Information Value</h3>
+
+                <p class="project-category">Notebooks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web apps">
+              <a href="https://huggingface.co/spaces/luisotorres/Volatility-Based-Support-and-Resistance-Levels">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-10.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Volatility-Based Supply and Demand</h3>
+
+                <p class="project-category">Web Apps</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="datasets">
+              <a href="https://www.kaggle.com/datasets/lusfernandotorres/chatpgpt-prompts">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ChatGPT Prompts</h3>
+
+                <p class="project-category">Datasets</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web apps">
+              <a href="https://huggingface.co/spaces/luisotorres/cats-vs-dogs">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-11.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cats vs. Dogs</h3>
+
+                <p class="project-category">Web Apps</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="notebooks">
+              <a href="https://www.kaggle.com/code/lusfernandotorres/gender-recognition-inceptionv3">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gender Recognition with InceptionV3</h3>
+
+                <p class="project-category">Notebooks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="notebooks">
+              <a href="https://www.kaggle.com/code/lusfernandotorres/wine-quality-eda-prediction-and-deploy">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-12.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wine Quality EDA</h3>
+
+                <p class="project-category">Notebooks</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="datasets">
+              <a href="https://www.kaggle.com/datasets/lusfernandotorres/us-wheat-futures-zw">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">U.S. Wheat Futures (ZW)</h3>
+
+                <p class="project-category">Datasets</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+<!-- Blog Section -->
+<article class="blog" data-page="blog">
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+  
+  <section class="blog-posts">
+    <ul class="blog-posts-list" id="medium-posts">
+      <iframe src='https://widgets.sociablekit.com/medium-publication-feed/iframe/25377786' frameborder='0' width='200%' height='1000'></iframe>
+    </ul>
+  </section>
+</article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">🔗 Let's Connect!</h3>
+
+          <section class="about-text">
+          <p>
+            Feel free to reach out to me on any of my platforms for potential collaborations, 
+            project discussions, or offers in mind. It is my pleasure to hear from you and engage in fruitful 
+            conversations that can lead to mutually beneficial partnerships.
+          </p>
+        </section>
+
+          <section class="about-text">
+            <p>
+               <li class="social-item">
+                  <a href="https://www.linkedin.com/in/luuisotorres/" class="social-link">
+                    •  LinkedIn 
+                  </a>
+              </li>
+          </p>
+
+          <section class="about-text">
+            <p>
+               <li class="social-item">
+                  <a href="https://medium.com/@luuisotorres" class="social-link">
+                    •  Medium 
+                  </a>
+              </li>
+          </p>
+
+          <section class="about-text">
+            <p>
+               <li class="social-item">
+                  <a href="https://www.kaggle.com/lusfernandotorres" class="social-link">
+                    •  Kaggle 
+                  </a>
+              </li>
+          </p>
+
+          <section class="about-text">
+            <p>
+               <li class="social-item">
+                  <a href="https://huggingface.co/luisotorres" class="social-link">
+                    •  Hugging Face 
+                  </a>
+              </li>
+          </p>
+
+          <section class="about-text">
+            <p>
+               <li class="social-item">
+                  <a href="https://api.whatsapp.com/send?phone=5512974111105" class="social-link">
+                    •  WhatsApp
+                  </a>
+              </li>
+          </p>
+  
+     
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  
+
 </body>
+
 </html>
